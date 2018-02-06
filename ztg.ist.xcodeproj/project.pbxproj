@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		013179F02029528700A46324 /* ChromaAddButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013179E92029528500A46324 /* ChromaAddButton.swift */; };
+		013179F12029528700A46324 /* ColorModeToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013179EA2029528500A46324 /* ColorModeToggleButton.swift */; };
+		013179F22029528700A46324 /* ChromaColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013179EB2029528500A46324 /* ChromaColorPicker.swift */; };
+		013179F32029528700A46324 /* UIColor+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013179EC2029528600A46324 /* UIColor+Utilities.swift */; };
+		013179F42029528700A46324 /* ChromaHandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013179ED2029528600A46324 /* ChromaHandle.swift */; };
+		013179F52029528700A46324 /* ChromaShadeSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013179EE2029528600A46324 /* ChromaShadeSlider.swift */; };
+		017AE8F4202785E800689F10 /* SCNVector3Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017AE8F3202785E800689F10 /* SCNVector3Extensions.swift */; };
+		017AE8F820279BD300689F10 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 017AE8F720279BD300689F10 /* art.scnassets */; };
+		017AE8FA2028232E00689F10 /* SCNNodeExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017AE8F92028232E00689F10 /* SCNNodeExtensions.swift */; };
 		01A406A120241185003F67F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A406A020241185003F67F7 /* AppDelegate.swift */; };
 		01A406A320241185003F67F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A406A220241185003F67F7 /* ViewController.swift */; };
 		01A406A620241185003F67F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01A406A420241185003F67F7 /* Main.storyboard */; };
@@ -26,6 +35,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		013179E92029528500A46324 /* ChromaAddButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChromaAddButton.swift; sourceTree = "<group>"; };
+		013179EA2029528500A46324 /* ColorModeToggleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorModeToggleButton.swift; sourceTree = "<group>"; };
+		013179EB2029528500A46324 /* ChromaColorPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChromaColorPicker.swift; sourceTree = "<group>"; };
+		013179EC2029528600A46324 /* UIColor+Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Utilities.swift"; sourceTree = "<group>"; };
+		013179ED2029528600A46324 /* ChromaHandle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChromaHandle.swift; sourceTree = "<group>"; };
+		013179EE2029528600A46324 /* ChromaShadeSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChromaShadeSlider.swift; sourceTree = "<group>"; };
+		013179EF2029528700A46324 /* ChromaColorPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChromaColorPicker.h; sourceTree = "<group>"; };
+		017AE8F3202785E800689F10 /* SCNVector3Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCNVector3Extensions.swift; sourceTree = "<group>"; };
+		017AE8F720279BD300689F10 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; name = art.scnassets; path = ztg.ist/art.scnassets; sourceTree = "<group>"; };
+		017AE8F92028232E00689F10 /* SCNNodeExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCNNodeExtensions.swift; sourceTree = "<group>"; };
 		01A4069D20241185003F67F7 /* ztg.ist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ztg.ist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01A406A020241185003F67F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		01A406A220241185003F67F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,12 +75,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		017AE8F52027867900689F10 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		01A4069420241185003F67F7 = {
 			isa = PBXGroup;
 			children = (
+				017AE8F720279BD300689F10 /* art.scnassets */,
 				01A4069F20241185003F67F7 /* ztg.ist */,
 				01A406B420241185003F67F7 /* ztg.istTests */,
 				01A4069E20241185003F67F7 /* Products */,
+				017AE8F52027867900689F10 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,12 +105,21 @@
 		01A4069F20241185003F67F7 /* ztg.ist */ = {
 			isa = PBXGroup;
 			children = (
+				013179E92029528500A46324 /* ChromaAddButton.swift */,
+				013179EF2029528700A46324 /* ChromaColorPicker.h */,
+				013179EB2029528500A46324 /* ChromaColorPicker.swift */,
+				013179ED2029528600A46324 /* ChromaHandle.swift */,
+				013179EE2029528600A46324 /* ChromaShadeSlider.swift */,
+				013179EA2029528500A46324 /* ColorModeToggleButton.swift */,
+				013179EC2029528600A46324 /* UIColor+Utilities.swift */,
 				01A406A020241185003F67F7 /* AppDelegate.swift */,
 				01A406A220241185003F67F7 /* ViewController.swift */,
 				01A406A420241185003F67F7 /* Main.storyboard */,
 				01A406A720241185003F67F7 /* Assets.xcassets */,
 				01A406A920241185003F67F7 /* LaunchScreen.storyboard */,
 				01A406AC20241185003F67F7 /* Info.plist */,
+				017AE8F3202785E800689F10 /* SCNVector3Extensions.swift */,
+				017AE8F92028232E00689F10 /* SCNNodeExtensions.swift */,
 			);
 			path = ztg.ist;
 			sourceTree = "<group>";
@@ -179,6 +216,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				017AE8F820279BD300689F10 /* art.scnassets in Resources */,
 				01A406AB20241185003F67F7 /* LaunchScreen.storyboard in Resources */,
 				01A406A820241185003F67F7 /* Assets.xcassets in Resources */,
 				01A406A620241185003F67F7 /* Main.storyboard in Resources */,
@@ -199,7 +237,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				017AE8FA2028232E00689F10 /* SCNNodeExtensions.swift in Sources */,
+				017AE8F4202785E800689F10 /* SCNVector3Extensions.swift in Sources */,
+				013179F42029528700A46324 /* ChromaHandle.swift in Sources */,
+				013179F12029528700A46324 /* ColorModeToggleButton.swift in Sources */,
+				013179F52029528700A46324 /* ChromaShadeSlider.swift in Sources */,
 				01A406A320241185003F67F7 /* ViewController.swift in Sources */,
+				013179F02029528700A46324 /* ChromaAddButton.swift in Sources */,
+				013179F22029528700A46324 /* ChromaColorPicker.swift in Sources */,
+				013179F32029528700A46324 /* UIColor+Utilities.swift in Sources */,
 				01A406A120241185003F67F7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -354,6 +400,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5BQ6869L4H;
 				INFOPLIST_FILE = ztg.ist/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ztg-ist.ztg-ist";
@@ -368,6 +415,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5BQ6869L4H;
 				INFOPLIST_FILE = ztg.ist/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ztg-ist.ztg-ist";
