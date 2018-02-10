@@ -16,6 +16,18 @@
 		017AE8F4202785E800689F10 /* SCNVector3Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017AE8F3202785E800689F10 /* SCNVector3Extensions.swift */; };
 		017AE8F820279BD300689F10 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 017AE8F720279BD300689F10 /* art.scnassets */; };
 		017AE8FA2028232E00689F10 /* SCNNodeExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017AE8F92028232E00689F10 /* SCNNodeExtensions.swift */; };
+		0192B9A0202F633E003C8BAE /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0192B995202F633B003C8BAE /* LocationManager.swift */; };
+		0192B9A1202F633E003C8BAE /* SceneLocationEstimate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0192B996202F633B003C8BAE /* SceneLocationEstimate.swift */; };
+		0192B9A2202F633E003C8BAE /* SceneLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0192B997202F633B003C8BAE /* SceneLocationView.swift */; };
+		0192B9A3202F633E003C8BAE /* SCNVector3+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0192B998202F633C003C8BAE /* SCNVector3+Extensions.swift */; };
+		0192B9A4202F633E003C8BAE /* CLLocation+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0192B999202F633C003C8BAE /* CLLocation+Extensions.swift */; };
+		0192B9A5202F633E003C8BAE /* SceneLocationEstimate+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0192B99A202F633C003C8BAE /* SceneLocationEstimate+Extensions.swift */; };
+		0192B9A6202F633E003C8BAE /* LocationNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0192B99B202F633D003C8BAE /* LocationNode.swift */; };
+		0192B9A7202F633E003C8BAE /* SCNNode+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0192B99C202F633D003C8BAE /* SCNNode+Extensions.swift */; };
+		0192B9A8202F633E003C8BAE /* FloatingPoint+Radians.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0192B99D202F633D003C8BAE /* FloatingPoint+Radians.swift */; };
+		0192B9AA202F633E003C8BAE /* CGPoint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0192B99F202F633E003C8BAE /* CGPoint+Extensions.swift */; };
+		0192B9AD202F65C5003C8BAE /* pin.imageset in Resources */ = {isa = PBXBuildFile; fileRef = 0192B9AB202F65C5003C8BAE /* pin.imageset */; };
+		0192B9AE202F65C5003C8BAE /* AppIcon.appiconset in Resources */ = {isa = PBXBuildFile; fileRef = 0192B9AC202F65C5003C8BAE /* AppIcon.appiconset */; };
 		01A406A120241185003F67F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A406A020241185003F67F7 /* AppDelegate.swift */; };
 		01A406A320241185003F67F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A406A220241185003F67F7 /* ViewController.swift */; };
 		01A406A620241185003F67F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01A406A420241185003F67F7 /* Main.storyboard */; };
@@ -45,6 +57,18 @@
 		017AE8F3202785E800689F10 /* SCNVector3Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCNVector3Extensions.swift; sourceTree = "<group>"; };
 		017AE8F720279BD300689F10 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; name = art.scnassets; path = ztg.ist/art.scnassets; sourceTree = "<group>"; };
 		017AE8F92028232E00689F10 /* SCNNodeExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCNNodeExtensions.swift; sourceTree = "<group>"; };
+		0192B995202F633B003C8BAE /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		0192B996202F633B003C8BAE /* SceneLocationEstimate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneLocationEstimate.swift; sourceTree = "<group>"; };
+		0192B997202F633B003C8BAE /* SceneLocationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneLocationView.swift; sourceTree = "<group>"; };
+		0192B998202F633C003C8BAE /* SCNVector3+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SCNVector3+Extensions.swift"; sourceTree = "<group>"; };
+		0192B999202F633C003C8BAE /* CLLocation+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CLLocation+Extensions.swift"; sourceTree = "<group>"; };
+		0192B99A202F633C003C8BAE /* SceneLocationEstimate+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SceneLocationEstimate+Extensions.swift"; sourceTree = "<group>"; };
+		0192B99B202F633D003C8BAE /* LocationNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationNode.swift; sourceTree = "<group>"; };
+		0192B99C202F633D003C8BAE /* SCNNode+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SCNNode+Extensions.swift"; sourceTree = "<group>"; };
+		0192B99D202F633D003C8BAE /* FloatingPoint+Radians.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FloatingPoint+Radians.swift"; sourceTree = "<group>"; };
+		0192B99F202F633E003C8BAE /* CGPoint+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGPoint+Extensions.swift"; sourceTree = "<group>"; };
+		0192B9AB202F65C5003C8BAE /* pin.imageset */ = {isa = PBXFileReference; lastKnownFileType = folder; name = pin.imageset; path = Assets.xcassets/pin.imageset; sourceTree = "<group>"; };
+		0192B9AC202F65C5003C8BAE /* AppIcon.appiconset */ = {isa = PBXFileReference; lastKnownFileType = folder; name = AppIcon.appiconset; path = Assets.xcassets/AppIcon.appiconset; sourceTree = "<group>"; };
 		01A4069D20241185003F67F7 /* ztg.ist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ztg.ist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01A406A020241185003F67F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		01A406A220241185003F67F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -105,6 +129,18 @@
 		01A4069F20241185003F67F7 /* ztg.ist */ = {
 			isa = PBXGroup;
 			children = (
+				0192B9AC202F65C5003C8BAE /* AppIcon.appiconset */,
+				0192B9AB202F65C5003C8BAE /* pin.imageset */,
+				0192B99F202F633E003C8BAE /* CGPoint+Extensions.swift */,
+				0192B999202F633C003C8BAE /* CLLocation+Extensions.swift */,
+				0192B99D202F633D003C8BAE /* FloatingPoint+Radians.swift */,
+				0192B995202F633B003C8BAE /* LocationManager.swift */,
+				0192B99B202F633D003C8BAE /* LocationNode.swift */,
+				0192B996202F633B003C8BAE /* SceneLocationEstimate.swift */,
+				0192B99A202F633C003C8BAE /* SceneLocationEstimate+Extensions.swift */,
+				0192B997202F633B003C8BAE /* SceneLocationView.swift */,
+				0192B99C202F633D003C8BAE /* SCNNode+Extensions.swift */,
+				0192B998202F633C003C8BAE /* SCNVector3+Extensions.swift */,
 				013179E92029528500A46324 /* ChromaAddButton.swift */,
 				013179EF2029528700A46324 /* ChromaColorPicker.h */,
 				013179EB2029528500A46324 /* ChromaColorPicker.swift */,
@@ -217,8 +253,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				017AE8F820279BD300689F10 /* art.scnassets in Resources */,
+				0192B9AD202F65C5003C8BAE /* pin.imageset in Resources */,
 				01A406AB20241185003F67F7 /* LaunchScreen.storyboard in Resources */,
 				01A406A820241185003F67F7 /* Assets.xcassets in Resources */,
+				0192B9AE202F65C5003C8BAE /* AppIcon.appiconset in Resources */,
 				01A406A620241185003F67F7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -238,15 +276,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				017AE8FA2028232E00689F10 /* SCNNodeExtensions.swift in Sources */,
+				0192B9A4202F633E003C8BAE /* CLLocation+Extensions.swift in Sources */,
 				017AE8F4202785E800689F10 /* SCNVector3Extensions.swift in Sources */,
+				0192B9A6202F633E003C8BAE /* LocationNode.swift in Sources */,
 				013179F42029528700A46324 /* ChromaHandle.swift in Sources */,
+				0192B9A0202F633E003C8BAE /* LocationManager.swift in Sources */,
+				0192B9AA202F633E003C8BAE /* CGPoint+Extensions.swift in Sources */,
 				013179F12029528700A46324 /* ColorModeToggleButton.swift in Sources */,
 				013179F52029528700A46324 /* ChromaShadeSlider.swift in Sources */,
 				01A406A320241185003F67F7 /* ViewController.swift in Sources */,
+				0192B9A2202F633E003C8BAE /* SceneLocationView.swift in Sources */,
 				013179F02029528700A46324 /* ChromaAddButton.swift in Sources */,
 				013179F22029528700A46324 /* ChromaColorPicker.swift in Sources */,
+				0192B9A8202F633E003C8BAE /* FloatingPoint+Radians.swift in Sources */,
+				0192B9A7202F633E003C8BAE /* SCNNode+Extensions.swift in Sources */,
+				0192B9A1202F633E003C8BAE /* SceneLocationEstimate.swift in Sources */,
 				013179F32029528700A46324 /* UIColor+Utilities.swift in Sources */,
 				01A406A120241185003F67F7 /* AppDelegate.swift in Sources */,
+				0192B9A3202F633E003C8BAE /* SCNVector3+Extensions.swift in Sources */,
+				0192B9A5202F633E003C8BAE /* SceneLocationEstimate+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
